@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/app.css">
+  <title>HSC login</title>
+</head>
+<body>
+	
+
+	<!--Mask-->
+	<div class="landing">
+	    <!--Intro content-->
+		
+		
+	  <section style="position: fixed; width: 100%;">
+		  <a class="btn" role="button" href="index.html"> <b>Home</b></a>
+	  		  
+	  </section>
+	  
+	  
+	  <section style="position: fixed; width: 100%;">
+			  
+	  </section>
+			  <section style="position: fixed; bottom: 0px; width: 100%; height: 95%">
+			 <h1 align="center">Shop</h1> 
+			 <p align="center">Buy Calculator Now!</p>
+			 <div class="text-center">
+			<img src="imgs/2.png" class="img-fluid rounded"  alt="..." ></img>
+		</div>
+			 <h1 align="center">High School Calculator</h1>
+			 <p align="center">Perform basic calculations with two digits</p>
+
+			 
+			 
+			  </section>
+			  
+			  
+			  
+			  <section style="position: absolute; bottom: 171px; width: 63%;">
+		  <a class="btn float-right active" role="button" data-toggle="modal" data-target="#login"><b>Login</b></a>
+		
+		
+		 
+			  <div style="position: absolute; bottom: 0px; width: 65%; background-color:transparent;" id="boot">
+
+		<a class="btn  float-right active" role="button" data-toggle="modal" data-target="#register"><b>Register</b></a>
+			 
+		 	
+			
+
+		
+			  </section>
+		  
+			
+			
+			
+			
+	    <!--/Intro content-->
+		
+	</div>
+	
+	  
+	  
+	<!--/.Mask-->
+	
+	
+
+	<!-- register modal-->
+	<div class="modal fade" id="register" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <span aria-hidden="true">&times;</span>
+	        </button>
+	      </div>
+	      <div class="modal-body">
+			<div class="form-group row">
+			  <label for="example-text-input" class="col-2 col-form-label">Full Name </label>
+			  <div class="col-10">
+			    <input class="form-control" type="text" value="FirstName LastName" id="example-text-input">
+			  </div>
+			</div>
+			<div class="form-group row">
+			  <label for="example-search-input" class="col-2 col-form-label">Email Address</label>
+			  <div class="col-10">
+			    <input class="form-control" type="search" value="example@gmu.edu" id="example-search-input">
+			  </div>
+			</div>
+			<div class="form-group row">
+			  <label for="example-email-input" class="col-2 col-form-label">Phone Number</label>
+			  <div class="col-10">
+			    <input class="form-control" type="email" value="555-555-5555" id="example-email-input">
+			  </div>
+			</div>
+			<div class="form-group row">
+			  <label for="example-url-input" class="col-2 col-form-label">Password</label>
+			  <div class="col-10">
+			    <input class="form-control" type="url" value="create password" id="example-url-input">
+			  </div>
+			</div>
+			<div class="form-group row">
+			  <label for="example-tel-input" class="col-2 col-form-label">Repeat Passowrd</label>
+			  <div class="col-10">
+			    <input class="form-control" type="tel" value="repeat password" id="example-tel-input">
+			  </div>
+			</div>
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+		  <a class="btn" role="button" href="product.html"> <b>Submit</b></a>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	<!-- register modal -->
+	
+	
+
+	<!--login Modal-->
+	<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <span aria-hidden="true">&times;</span>
+	        </button>
+	      </div>
+	      <div class="modal-body">
+			
+			
+			
+			<div class="form-group row">
+			  <label for="example-url-input" class="col-2 col-form-label" id ="email">Email Address</label>
+			  <div class="col-10">
+			    <input class="form-control" type="url" value="example@gmu.edu" id="example-url-input">
+			  </div>
+			</div>
+			<div class="form-group row">
+			  <label for="example-tel-input" class="col-2 col-form-label">Password</label>
+			  <div class="col-10">
+			    <input class="form-control" type="tel" value="enter account password" id="example-tel-input">
+			  </div>
+			</div>
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+		  <a class="btn" role="button" href="calc.html"> <b>Submit</b></a>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	
+	<!--login Modal-->
+	
+	
+	
+		<script type="text/javascript">
+			function textSubmit() {
+				var email = new RegExp('^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[Ee][Dd][Uu]$');
+				if(email.test(Document.email.value))
+				{
+					window.open(product.html,"_self");
+				}
+				else
+				{
+					alert("Email must be a valid .edu address ");
+				}
+			});
+	</script>
+	
+
+
+<script src="js/jquery-3.2.1.js"></script>
+<script src="js/tether.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/app.js"></script>
+
+
+
+	
+</body>
+</html>
